@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="PearlHacks2026"
+run/main_scene="uid://edi1g2yjs1wh"
 config/features=PackedStringArray("4.5", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+SignalBus="*res://SignalBus.gd"
 
 [dialogic]
 

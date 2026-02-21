@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://b72akeyj6p1wf"]
+[gd_scene load_steps=8 format=3 uid="uid://b72akeyj6p1wf"]
 
 [ext_resource type="Script" uid="uid://kuctgs6sj0oe" path="res://catch_game.gd" id="1_4fuyx"]
 [ext_resource type="Script" uid="uid://c6eiinmnjpwka" path="res://CatchGamePlayer.gd" id="1_6wbnp"]
 [ext_resource type="Texture2D" uid="uid://b6px8bs7nhbm0" path="res://assets/square.png" id="1_65fjk"]
+[ext_resource type="PackedScene" uid="uid://bnpb8l7l6o57s" path="res://falling_item.tscn" id="4_dk1ls"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6wbnp"]
 size = Vector2(70, 69)
@@ -53,3 +54,15 @@ shape = SubResource("RectangleShape2D_dk1ls")
 [node name="Timer" type="Timer" parent="."]
 wait_time = 65.0
 autostart = true
+
+[node name="FallingItem" parent="." instance=ExtResource("4_dk1ls")]
+
+[node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 6.0
+
+[node name="StartInst" type="Label" parent="."]
+offset_left = 489.0
+offset_top = 62.0
+offset_right = 711.0
+offset_bottom = 85.0
+text = "Catch the falling ingredients!"
