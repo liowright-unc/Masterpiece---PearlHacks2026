@@ -47,6 +47,7 @@ func update_timer() -> void:
 		
 func score_update() -> void:
 	SignalBus.final_score += 10
+	score += 10
 	
 func _on_timer_timeout() -> void:
 	# end screen
