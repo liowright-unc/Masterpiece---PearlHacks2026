@@ -1,6 +1,6 @@
 extends Area2D
 
-const FALL_SPEED = 200
+var fall_speed
 var screen_size
 
 
@@ -8,10 +8,17 @@ var screen_size
 func _ready() -> void:
 	#visible = false
 	screen_size = get_viewport_rect().size
+	
+	if SignalBus.current_scene_num == 2: #America
+		fall_speed = 250
+	if SignalBus.current_scene_num == 4: # France
+		fall_speed = 350
+	if SignalBus.current_scene_num == 7: # China
+		fall_speed = 450
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	position.y += FALL_SPEED * delta
+	position.y += fall_speed * delta
 	
 	var bodies = get_overlapping_bodies()
 	if $"../../Catcher" in bodies:

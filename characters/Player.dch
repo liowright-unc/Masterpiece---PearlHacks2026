@@ -10,12 +10,49 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "exhale",
 &"description": "",
-&"display_name": "Player",
+&"display_name": "You",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"exhale": {
+"export_overrides": {
+"image": "\"res://assets/char portraits/C_exhale.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"glad": {
+"export_overrides": {
+"image": "\"res://assets/char portraits/C_glad.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"question": {
+"export_overrides": {
+"image": "\"res://assets/char portraits/C_question.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://assets/char portraits/C_sad.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

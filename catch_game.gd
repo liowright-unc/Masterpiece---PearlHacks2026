@@ -10,7 +10,10 @@ var screen_size
 @onready var time_label = $TimeLabel
 @onready var timer = $Timer
 var falling_item = preload("res://falling_item.tscn")
-
+var apple = preload("res://assets/ingredients/apple.png")
+var egg = preload("res://assets/ingredients/egg-cartoon-style.png")
+var sugar = preload ("res://assets/ingredients/sugar.png")
+var America = [apple, egg, sugar]
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -51,10 +54,11 @@ func _on_spawn_timer_timeout() -> void:
 	print("spawn success")
 	var new_instance = falling_item.instantiate()
 	new_instance.global_position = Vector2(rng.randi_range(0,screen_size.x), 0)
+	if SignalBus.current_scene_num == 2:
+		new_instance.get_child(0).get_child(0).texture = America.pick_random()
 	get_tree().current_scene.add_child(new_instance)
 	new_instance.visible = true
 
 func _on_endgame_pressed() -> void:
 	SignalBus.finished_catchgame.emit(score)
-	SignalBus.current_scene_num += 1
 	get_tree().change_scene_to_file("res://main.tscn")

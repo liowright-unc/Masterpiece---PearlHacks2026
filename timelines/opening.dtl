@@ -1,5 +1,47 @@
-join Player center
-Player: Opening hooray
-update Player
-join Pearl center
-Pearl: It's me, Pearl
+join Player (exhale) center
+Player: It wasn’t easy, deciding to leave everything behind. But something has to give.
+Player: I've tried everything.
+Player: Meal prep...
+Player: Eating out...
+Player: Fancy recipes...
+Player: This newfangled air fryer...
+Player (sad): But dessert just hasn't been satisfying lately!
+Player (glad): Fortunately, I've got some pretty good friends.
+Player: In fact, I'm friends with the best chef in the whole world.
+update Player left [z_index="0" mirrored="true"]
+join Pearl right
+Pearl: What’s crackalackin’?
+Pearl (glad): Are you ready to rediscover cooking?
+Player (exhale): I’m ready for anything.
+Player: What’s on the menu today?
+Pearl (love): You’ll have to tell me!
+Pearl (neutral): On this journey, I’m your sous chef.
+Player (question): You're not in charge?
+Pearl: I can’t just tell you what cooking means to you, silly! That's something personal.
+Player (sad): I guess so...
+Pearl (neutral): Hey, don’t make that face. I’ll be with you the whole way. And I’ll give you all kinds of tips!
+Pearl (glad): Actually, there’s someone I’d like you to meet!
+leave Player
+join Buck (Neutral) left
+Pearl: This is Buck! He’s the supreme pie baker in America.
+Buck: Hah… another newbie, Pearl?
+Pearl: You know it!
+leave Pearl
+join Player right
+Player (exhale): Pardon?
+Buck: Alright, listen up, kid.
+Buck (Angry): Pie-baking isn’t for everybody.
+Buck: You need real persistence.
+Buck (Glad): I spent years perfecting my craft… the dough, the filling, the artistry of it all…
+Buck (Angry): You think you can do it in a day?
+Player (glad): Well, I once made a videogame in a day. I'd like to give it a go.
+Buck: And if you fail?
+Player (question): Grab the fire extinguisher and start over?
+Buck (Neutral): Hmph...
+Buck (Sad): I like your moxie, kid.
+Buck (Neutral): Alright, fine. I’ll teach you.
+Buck: But don’t expect me to go easy.
+Buck: In fact, today we’ll be making my specialty…
+Buck (Glad): Apple pie.
+Player (glad): You're on!
+leave --All--
