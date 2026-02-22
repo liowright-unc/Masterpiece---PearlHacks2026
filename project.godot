@@ -26,10 +26,15 @@ directories/dch_directory={
 "ChinaGuy": "res://characters/ChinaGuy.dch",
 "Julienne": "res://characters/Julienne.dch",
 "Pearl": "res://characters/Pearl.dch",
-"Player": "res://characters/Player.dch"
+"Player": "res://characters/Player.dch",
+"Unknown": "res://Unknown.dch"
 }
 directories/dtl_directory={
 "America_fin": "res://timelines/America_fin.dtl",
+"China": "res://China.dtl",
+"China_fin": "res://China_fin.dtl",
+"France": "res://France.dtl",
+"France_fin": "res://France_fin.dtl",
 "opening": "res://timelines/opening.dtl"
 }
 layout/style_directory={}

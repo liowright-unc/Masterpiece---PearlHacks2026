@@ -1,0 +1,40 @@
+join Player (exhale) left [mirrored="true"]
+join ChinaGuy (neutral) right
+...
+...
+...
+Player (question): Hello?
+update ChinaGuy (sad)
+Unknown: Eek!
+Player: We’re looking for Xusu Long?
+ChinaGuy (neutral): You found her!
+ChinaGuy (neutral): But… what do you need me for?
+Player: We’re looking for the most fearsome baker in China?
+ChinaGuy (nervous): Oh...
+ChinaGuy: I don’t know… that’s a lot of pressure…
+leave Player
+join Pearl (neutral) left [mirrored="true"]
+Pearl: Oh, Xusu, stand up tall! You’re called fearsome for a reason!
+leave Pearl
+join Julienne left [mirrored="true"]
+Julienne (Passionate): She is right!
+Julienne (Glad): Do you love to cook or don’t you?
+ChinaGuy (sad): Of course I love it!
+ChinaGuy (glad): Baking is my favorite thing in the world!
+ChinaGuy: It’s who I am!
+ChinaGuy (nervous): Oh, gosh. I didn’t mean to yell.
+Julienne (Passionate): Yell if you must!
+leave Julienne
+join Player (exhale) left [mirrored="true"]
+Player: Ah… never mind that, Xusu. We wanted to ask if you’d teach us your best dish.
+ChinaGuy (neutral): My best dish?
+ChinaGuy (glad): My favorite is dan tat.
+ChinaGuy (nervous): It might be a challenge…
+ChinaGuy: Is that okay?
+leave Player
+join Buck (Neutral) left
+Buck: More than okay.
+Buck (Glad): The sweat makes it taste better.
+leave Buck
+join Player (glad) left [mirrored="true"]
+Player: When do we get started?

@@ -1,0 +1,29 @@
+join Player (exhale) left [mirrored="true"]
+join Julienne (Glad) right
+Julienne: Voilà, mes amis, et bon appétit!
+Julienne (Passionate): The pinnacle of French cuisine is complete!
+Player (glad): Now that’s mouthwatering!
+Julienne: Do you feel the passion?
+Player (exhale): Yeah… yeah, I do!
+Julienne (Glad): Then my job is done perfectly.
+leave Player
+join Pearl left [mirrored="true"]
+Pearl (glad): We can’t thank you enough!
+Julienne (Passionate): Do not thank me! It was enough that we were working as one, for but one afternoon.
+Pearl (neutral): As a matter of fact…
+Pearl (love): I think I’ve had a breakthrough!
+Pearl (glad): If I treat each and every dish like a masterpiece…
+Pearl: Then they will be!
+Julienne (Passionate): Marvelous!
+Julienne (Glad): I knew if anyone could do it, it would be you.
+Julienne (Sad): Ah, Pearl, I miss you already.
+Pearl (sad): Aw, Julienne.
+Pearl (neutral): There’s just one more destination to go.
+Pearl (glad): Buck should be waiting for us in China.
+Julienne (Glad): Who is this Buck?
+Julienne (Passionate): There is no chef that is my better.
+Julienne: We go together, mes amis.
+leave Julienne
+join Player (exhale) right
+Player: The more, the merrier.
+Player (glad): I hope everyone is ready... because I'm feeling pumped!

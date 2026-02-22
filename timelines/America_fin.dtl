@@ -1,3 +1,45 @@
-join Player center
-join Buck center
-Buck: Well, I'll be. You've really done it, sport.
+join Player (exhale) left [mirrored="true"]
+join Buck (Neutral) right [mirrored="true"]
+Buck: Well, I'll be. You've really done it, kid.
+Buck (Glad): That's as fine an apple pie as I've ever seen.
+Player (glad): I suppose I must’ve learned from the best.
+Buck (Neutral): That’s true…
+Buck: But your work is all yours.
+Buck: You never gave up, not for a second.
+Buck: I...
+Buck (Sad): I see a little of myself in you, kid.
+Buck: You'll go far.
+Buck (Neutral): Buck...
+Buck (Glad): I didn't know you were a softie.
+Buck (Angry): Don’t you go thinking you can give me lip just ‘cause you baked a half–decent pie!
+Buck: ...
+Buck (Neutral): No, it was an excellent pie.
+Buck (Glad): You’re on your way to a masterpiece, with this.
+leave Player
+join Pearl (glad) left
+Pearl: He’s right, you know!
+Pearl (neutral): True mastery comes from within.
+Pearl: You know my mission…
+Pearl (love): I’m going to find a way to put fish in every dish!
+Pearl: It even rhymes.
+Pearl (sad): It might seem silly…
+Pearl (neutral): But it’s important to me. And look!
+Pearl (love): I’ve already made fish pudding!
+Buck (Glad): That’s a darn marvel.
+Buck (Neutral): Say, you interested in sous cheffing for anyone else?
+Pearl (glad): Not until we’ve met our goals!
+Pearl (neutral): And that means we’re on to the next dish!
+leave Buck
+join Player (exhale) right
+Player: And that is...
+Pearl: We’re off to the land of flaky pastries, buttery delights, and world-renowned fare…
+Pearl (love): France!
+leave Pearl
+join Buck (Sad) left
+Buck: Sick of ol’ Buck so soon?
+Player (sad): Never.
+Buck (Neutral): Hmph...
+Buck (Angry): I won’t be left in the dust!
+Buck (Neutral): I’ll practice my craft until I can be proud to stand with you, and I’ll meet you at your final destination.
+Player (glad): Can't wait.
+leave --All--

@@ -1,6 +1,6 @@
 extends Node2D
 
-const SCENES = ["opening", "res://CatchGame.tscn", "America_fin"]
+const SCENES = ["opening", "res://CatchGame.tscn", "America_fin", "France", "res://CatchGame.tscn", "France_fin", "China", "res://CatchGame.tscn", "China_fin"]
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -16,7 +16,10 @@ func _process(delta: float) -> void:
 
 func control(current) -> void: #which timeline/minigame
 	
-	if current == "opening" or current == "America_fin": #if it's a timeline
+	if SignalBus.current_scene_num == 9:
+		get_tree().quit()
+	
+	if current == "opening" or current == "America_fin" or current == "France" or current == "France_fin" or current == "China" or current == "China_fin": #if it's a timeline
 		if Dialogic.current_timeline != null: #prevent simultaneous
 			return
 		else: 

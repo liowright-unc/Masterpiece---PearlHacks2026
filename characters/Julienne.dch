@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 &"_translation_id": "",
-&"color": Color(1, 1, 1, 1),
+&"color": Color(0.7054138, 1, 0.23046875, 1),
 &"custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -12,14 +12,14 @@
 },
 &"default_portrait": "Neutral",
 &"description": "",
-&"display_name": "Julien",
+&"display_name": "Julienne",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
 "Glad": {
 "export_overrides": {
-"image": ""
+"image": "\"res://assets/char portraits/T_glad.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -28,7 +28,7 @@
 },
 "Neutral": {
 "export_overrides": {
-"image": "\"\""
+"image": "\"res://assets/char portraits/T_neutral.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -38,7 +38,7 @@
 },
 "Passionate": {
 "export_overrides": {
-"image": ""
+"image": "\"res://assets/char portraits/T_passionate.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -47,7 +47,7 @@
 },
 "Sad": {
 "export_overrides": {
-"image": ""
+"image": "\"res://assets/char portraits/T_sad.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

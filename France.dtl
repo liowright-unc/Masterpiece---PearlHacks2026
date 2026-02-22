@@ -1,0 +1,37 @@
+join Player (exhale) left [mirrored="true"]
+join Pearl (love) right
+Pearl: Here we are!
+Player: I always imagined France being... well, more....
+Pearl (sad): Don't let her hear you say that!
+Player (question): Her?
+Unknown: Ahem.
+leave Pearl
+join Julienne (Glad) right
+Unknown: You think my home is boring?
+update Julienne (Passionate)
+Unknown: Ha!
+Unknown: That is because you look with your eyes, and not your soul!
+Player (sad): Uh... my mistake.
+Julienne (Glad): I am Julienne, pâtissier premier of France.
+Julienne: And you are supposed to be...?
+leave Player
+join Pearl (sad) left [mirrored="true"]
+Pearl: Julienne, it’s me!
+Pearl (glad): Didn't you miss me?
+Julienne: Ah, Pearl, the other half of my heart! At last you have come to my home!
+Pearl (neutral): Yes, my best friend and I have come to learn from you.
+Julienne (Sad): Best friend?
+leave Pearl
+join Player (question) left [mirrored="true"]
+Julienne (Glad): This one?
+Julienne: Yes, they do need improvement.
+Julienne: You’ve come to the right place, chéries.
+Julienne (Passionate): We will join our hearts in the fire of pâtisserie!
+Player (glad): That sounds awesome!
+Julienne (Glad): It is so!
+Julienne (Passionate): Tell me, what would you have us make? Eclairs? Chouquettes? Madeleines?
+Player (question): Ah, I’m not really an expert…
+Player (glad): I’ve always loved macarons?
+Julienne: It cannot be helped.
+Julienne (Passionate): Set your hearts afire!
+leave --All--

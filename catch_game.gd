@@ -13,7 +13,11 @@ var falling_item = preload("res://falling_item.tscn")
 var apple = preload("res://assets/ingredients/apple.png")
 var egg = preload("res://assets/ingredients/egg-cartoon-style.png")
 var sugar = preload ("res://assets/ingredients/sugar.png")
+var jam = preload("res://assets/ingredients/jam3.png")
+var butter = preload("res://assets/ingredients/butter.png")
 var America = [apple, egg, sugar]
+var France = [jam, egg, sugar]
+var China = [butter, egg, sugar]
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -56,6 +60,10 @@ func _on_spawn_timer_timeout() -> void:
 	new_instance.global_position = Vector2(rng.randi_range(0,screen_size.x), 0)
 	if SignalBus.current_scene_num == 2:
 		new_instance.get_child(0).get_child(0).texture = America.pick_random()
+	if SignalBus.current_scene_num == 4:
+		new_instance.get_child(0).get_child(0).texture = France.pick_random()
+	if SignalBus.current_scene_num == 7:
+		new_instance.get_child(0).get_child(0).texture = China.pick_random()
 	get_tree().current_scene.add_child(new_instance)
 	new_instance.visible = true
 
